@@ -1,5 +1,5 @@
 .idea/
 vendor/
 build/
-tests/compress/
+tests/compress/*
 .DS_Store
