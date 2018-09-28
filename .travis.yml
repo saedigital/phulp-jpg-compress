@@ -15,7 +15,7 @@ matrix:
     - ENVIRONMENT="coverage"
 
 before_script:
-  - pecl install -y imagick
+  - sudo pecl install imagick
   - travis_retry composer self-update
   - travis_retry composer install
 
