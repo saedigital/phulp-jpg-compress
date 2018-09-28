@@ -33,6 +33,10 @@ class JpgCompressTest extends PHPUnit_Framework_TestCase
         $compress = new JpgCompress(['quality' => 10]);
         $compress->execute($this->source);
 
+        if (!is_dir($dist)) {
+            mkdir($dist);
+        }
+
         /** @var \Phulp\DistFile $file */
         $file = $this->source->getDistFiles()[0];
 
