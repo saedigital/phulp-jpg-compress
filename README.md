@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/saedigital/phulp-jpg-compress.svg?branch=master)](https://travis-ci.org/saedigital/phulp-jpg-compress)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/saedigital/phulp-jpg-compress/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/saedigital/phulp-jpg-compress/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/saedigital/phulp-jpg-compress/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![Code Coverage](https://scrutinizer-ci.com/g/saedigital/phulp-jpg-compress/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/saedigital/phulp-jpg-compress/?branch=master)
+
 # phulp-jpg-compress
 
 The jpg-compress addon for [PHULP](https://github.com/reisraff/phulp). It's a wrapper for [intervention/image](http://image.intervention.io).
@@ -5,7 +10,7 @@ The jpg-compress addon for [PHULP](https://github.com/reisraff/phulp). It's a wr
 ## Install
 
 ```bash
-$ composer require ......
+$ composer require saedigital/phulp-jpg-compress
 ```
 
 ## Usage
