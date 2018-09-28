@@ -5,7 +5,7 @@
     "type": "library",
     "require": {
         "php": ">=5.6",
-        "reisraff/phulp": "^1.12",
+        "reisraff/phulp": "^1.9",
         "intervention/image": "^2.4"
     },
     "require-dev": {
