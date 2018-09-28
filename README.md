@@ -60,6 +60,11 @@ $phulp->task('jpg-compress', function ($phulp) {
 
 ```
 
+## Testing
+``` bash
+$ composer test
+```
+
 ## Security
 If you discover any security related issues, please email **ronaldo.rodrigues@saedigital.com.br** instead of using the issue tracker.
 
