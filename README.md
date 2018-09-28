@@ -36,7 +36,7 @@ Image processing extensions.
  Make sure you have one of these installed in your PHP environment, before you start. 
  
  #### Quality
- Define the quality of the encoded image.  Data ranging from **0** (poor quality, small file) to **100** (best quality, big file).
+ Define the quality of the encoded image.  Data ranging from **0** (poor quality, small file) to **100** (best quality, big file). Default: 60.
 
 
 ### Example    
