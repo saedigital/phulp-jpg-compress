@@ -59,3 +59,12 @@ $phulp->task('jpg-compress', function ($phulp) {
 });
 
 ```
+
+## Security
+If you discover any security related issues, please email **ronaldo.rodrigues@saedigital.com.br** instead of using the issue tracker.
+
+## Credits
+   - [Ronaldo Matos Rodrigues](https://github.com/whera)
+   
+## License
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
