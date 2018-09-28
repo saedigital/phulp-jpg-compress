@@ -15,12 +15,13 @@ matrix:
     - ENVIRONMENT="coverage"
 
 before_script:
-- travis_retry composer self-update
-- travis_retry composer install
+  - pecl install imagick
+  - travis_retry composer self-update
+  - travis_retry composer install
 
 script:
-- travis_retry composer check-style
-- vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+  - travis_retry composer check-style
+  - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
 
 after_script:
-- if [ "$ENVIRONMENT" == 'coverage' ]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
+  - if [ "$ENVIRONMENT" == 'coverage' ]; then wget https://scrutinizer-ci.com/ocular.phar && php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
