@@ -6,7 +6,6 @@ use Intervention\Image\ImageManager;
 use Phulp\PipeInterface;
 use Phulp\Source;
 
-
 /**
  * Class JpgCompress
  *
@@ -52,8 +51,7 @@ class JpgCompress implements PipeInterface
      */
     public function execute(Source $source)
     {
-        foreach($source->getDistFiles() as $key => $file) {
-
+        foreach ($source->getDistFiles() as $key => $file) {
             $pathFile = $file->getFullpath().$file->getDistpathname();
             $ext = $this->options['format'] ?: pathinfo($pathFile, PATHINFO_EXTENSION);
 
